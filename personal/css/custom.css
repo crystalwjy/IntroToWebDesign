@@ -1,0 +1,133 @@
+@font-face{
+	font-family: Courgette-Regular;
+	src: url("../fonts/Courgette-Regular.ttf");
+}
+
+
+body{
+	background-color: rgba(246, 223, 227,0.8);
+	font-size: 18px;
+	text-align: center;
+	padding: 100px;
+}
+
+#wrap{
+  background-color : rgba(255,255,255,.6);
+  border-radius : 25px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	border: solid 0px white;
+	font-family: 'Courgette', cursive;
+
+
+}
+
+nav ul a{
+	border: solid 1px #ffccd5;
+	flex-grow: 1;
+	text-align: center;
+	padding: 18px;
+	text-decoration: none;
+	color: rgb(26, 14, 129);
+	font-size: 25px;
+}
+
+nav ul a:hover{
+	background-color: rgb(225, 214, 235);
+}
+
+nav ul a:link{
+	color: rgb(102, 88, 137);
+	border-radius : 20px;
+}
+
+nav ul a:visited{
+	color: rgb(249, 201, 159);
+}
+
+nav ul a:active{
+	color: rgb(235, 173, 175);
+}
+
+nav ul a:focus{
+	text-decoration: underline;
+}
+article section{
+	border: 0px;
+	flex-grow: 1;
+}
+
+header,article h1{
+	color: rgb(102, 88, 137);
+	font-family: 'Courgette', cursive;
+	padding-top: 10px;
+}
+
+p{
+	color: rgb(123, 91, 81);
+	font-family : 'courier';
+	padding: 30px;
+}
+
+#col1{
+	padding : 25px;
+  	font-size : 14pt;
+  	
+}
+
+#col2{
+  padding : 25px;
+  font-size : 14pt;
+  font-family: 'Courgette', cursive;
+}
+
+form{
+  border : solid 0px black;
+  margin:0 auto;
+}
+
+h2{
+	color: rgb(127, 85, 57);
+}
+
+b{
+	color: rgb(176, 137, 104);
+	font-size: 20px;
+}
+
+
+#contactForm{
+  background : rgba(255,255,255,.8);
+  padding : 50px;
+  border-radius : 25px;
+  text-align: center;
+}
+
+#contactForm tr td{
+  padding : 20px;
+  font-family : 'courier';
+}
+
+.inputField, .textAreaField{
+    background-color : rgba(237, 224, 212,.8);
+    color : rgb(123, 91, 81);
+    font-family : 'courier';
+    font-size : 14pt;
+    padding : 20px;
+    border-radius : 25px;
+    border : 0;
+}
+
+.inputField{
+  height : 40px;
+}
+
+
+
+
+

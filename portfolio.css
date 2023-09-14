@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Six Caps";
+  src: url("fonts/SixCaps-Regular.ttf")
+}
+
+body{
+	background: rgb(34, 34, 59);
+}
+
+#wrap{
+	width: 100%;
+	display : flex;
+	display: inline-block;
+}
+
+.top nav{
+	margin: 0 auto;
+    text-align: center;
+}
+.top nav ul{
+	align-content: center;
+}
+
+.top nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+
+}
+
+.top nav ul li a{
+	color: rgb(242, 233, 228);
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.top nav ul li a:hover{
+	background-color: rgb(201, 173, 167);
+}
+
+h1{
+	font-family: palatino,sans-serif;
+	color: rgb(154, 140, 152);
+	text-align: center;
+	font-size: 64px;
+	font-family: "Six Caps";
+	padding-left: 43px;
+
+}
+
+footer{
+	display: block;
+	text-align: center;
+}
+
+#intro{
+	display: flex;
+	min-height: 60%;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.introImage{
+	min-width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.introImage img{
+	width: 360px;
+	height: 420px;
+}
+
+.introText{
+	min-width: 50%;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 20px;
+	color: #DBD6DA;
+	line-height: 2;
+}
+

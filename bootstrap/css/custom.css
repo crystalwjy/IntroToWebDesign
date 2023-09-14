@@ -1,0 +1,86 @@
+body{
+	background: rgb(108, 117, 125);
+}
+
+.marginTopBottom{
+	margin-top : 60px;
+	margin-bottom : 60px;
+}
+
+.carouselImage{
+	height : 300px;
+}
+
+.card{
+	background: rgb(202, 240, 248);
+	padding: 20px;
+	margin: 20px;
+}
+
+iframe{
+	padding: 70px;
+}
+
+.mailingList{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items : center;
+}
+
+.mailingList h4{
+	align-self : flex-start;
+	color: white;
+}
+
+.socialMedia{
+	display : flex;
+	flex-direction : row;
+	justify-content: center;
+	align-items : center;
+}
+
+.socialMedia i{
+	margin : 15px;
+	font-size : 40pt;
+}
+
+.socialMedia i:hover{
+	color : rgb(202, 240, 248);
+	cursor : pointer;
+}
+
+.card-title{
+	color: black;
+	padding: 20px;
+	font-size: 35px;
+	font-family: Marker Felt, fantasy;
+}
+
+.card-text{
+	color: rgb(0, 119, 182);
+	padding: 30px;
+	font-family: Palatino, URW Palladio L, serif;
+}
+
+
+.amountBtn{
+		width : 150px;
+		margin : 10px;
+		padding: 10px;
+}
+
+.donateBtn{
+		width : 90%;
+		margin: 20px;
+}
+
+.lead{
+	color: rgb(144, 224, 239);
+	font-family: Palatino, URW Palladio L, serif;
+}
+
+h3{
+	color: rgb(144, 224, 239);
+	font-family: Palatino, URW Palladio L, serif;
+}
